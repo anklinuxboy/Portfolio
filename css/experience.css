@@ -76,6 +76,6 @@ h6 {
     list-style-position: inside;
 }
 
-#kohi_link {
-    color: blue;
+.link {
+    color: #173bd8;
 }
