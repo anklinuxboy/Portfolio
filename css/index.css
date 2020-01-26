@@ -1,0 +1,51 @@
+/* 
+    Remove all borders from css
+    Only for debugging
+*/
+
+body {
+    background-color: gainsboro;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkcyan;
+}
+
+.photo_main_nav {
+    width: 50px;
+    height: 50px;
+    margin-left: 1em;
+    margin-top: 0.4em;
+    margin-bottom: 0.3em;
+    padding: 0.1em;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 2px solid #dbdbdb;
+    cursor: pointer;
+}
+
+nav {
+    align-self: center;
+}
+
+.nav {
+    text-align: center;
+    align-self: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 1em;
+    padding: 0.2em 0.5em;
+    font-size: 1.1rem;
+    background-color: #dbdbdb;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+a {
+    border-radius: 8px;
+}
