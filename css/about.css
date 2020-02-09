@@ -13,6 +13,9 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: darkcyan;
@@ -57,7 +60,7 @@ a {
 
 main {
     align-self: center;
-    margin-top: 2rem;
+    margin-top: 5rem;
     width: 60%;
 }
 
