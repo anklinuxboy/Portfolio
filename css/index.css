@@ -1,8 +1,9 @@
 body {
     background-color: rgb(39, 33, 39);
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     display: flex;
     flex-flow: column nowrap;
+    font-size: 17px;
 }
 
 header {
@@ -36,7 +37,7 @@ nav {
     align-self: center;
 }
 
-li {
+.nav_element {
     display: inline-block;
     margin-right: 1em;
     padding: 0.2em 0.5em;
@@ -44,6 +45,7 @@ li {
     background-color: #dbdbdb;
     border-radius: 8px;
     box-sizing: border-box;
+    font-weight: 600;
 }
 
 a {
