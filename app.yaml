@@ -1,1 +1,2 @@
 runtime: go112
+max_instances: 2
