@@ -1,11 +1,8 @@
-/* 
-    Remove all borders from css
-    Only for debugging
-*/
-
 body {
-    background-color: gainsboro;
+    background-color: rgb(39, 33, 39);
     font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 header {
@@ -14,7 +11,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: darkcyan;
+    background-color: rgb(41, 101, 115);
 }
 
 .photo_main_nav {
@@ -51,4 +48,36 @@ li {
 
 a {
     border-radius: 8px;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;   
+}
+
+.background {
+    width: 100vw;
+    height: 85vh;
+    background-image: url("../images/motivational.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-position: 50% 15%;
+}
+
+.about_social {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.about_social_logo {
+    width: 64px;
+    height: 64px;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+    border-radius: 10px;
+    background-color: white;
 }

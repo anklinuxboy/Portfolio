@@ -1,12 +1,7 @@
-/* 
-    Remove all borders from css
-    Only for debugging
-*/
-
 body {
     display: flex;
     flex-flow: column nowrap;
-    background-color: gainsboro;
+    background-color: rgb(39, 33, 39);
     font-family: 'Nunito Sans', sans-serif;
     font-size: 17px;
     margin-bottom: 2rem;
@@ -18,7 +13,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: darkcyan;
+    background-color: rgb(41, 101, 115);
 }
 
 .photo_main_nav {
@@ -62,25 +57,12 @@ main {
     align-self: center;
     margin-top: 5rem;
     width: 60%;
+    color: whitesmoke;
 }
 
 p {
     margin-bottom: 1em;
-}
-
-.about_social {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-.about_social_logo {
-    width: 64px;
-    height: 64px;
-    margin-right: 2em;
-    margin-bottom: 0.5em;
-    border-radius: 10px;
-    background-color: white;
+    line-height: 1.2em;
 }
 
 h6 {

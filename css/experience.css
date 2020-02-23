@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-flow: column nowrap;
-    background-color: gainsboro;
+    background-color: rgb(39, 33, 39);
     font-family: 'Nunito Sans', sans-serif;
     font-size: 17px;
     margin-bottom: 2em;
@@ -13,7 +13,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: darkcyan;
+    background-color: rgb(41, 101, 115);
 }
 
 .photo_main_nav {
@@ -57,6 +57,7 @@ main {
     align-self: center;
     margin-top: 4rem;
     width: 60%;
+    color: whitesmoke;
 }
 
 .experience_section {
@@ -80,5 +81,6 @@ h6 {
 }
 
 .link {
-    color: #173bd8;
+    color: cornsilk;
+    text-decoration: underline;
 }
