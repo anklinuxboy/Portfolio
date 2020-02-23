@@ -1,13 +1,15 @@
 header {
+    display: flex;
     flex-flow: column nowrap;
     justify-content: center;
 }
 
-header figure {
+figure {
     align-self: center;
 }
 
 nav {
+    align-self: center;
     margin: 0.7em auto;
 }
 
