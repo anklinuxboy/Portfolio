@@ -68,6 +68,24 @@ main {
     background-position: 50% 15%;
 }
 
+.layer {
+    display: flex;
+    width: 100vw;
+    height: 85vh;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(59, 68, 62, 0.68);;
+}
+
+.welcome_message {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1em;
+    font-weight: 700;
+    text-align: center;
+}
+
 .about_social {
     display: flex;
     flex-flow: row wrap;
