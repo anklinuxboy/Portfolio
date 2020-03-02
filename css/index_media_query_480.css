@@ -17,6 +17,14 @@ nav {
     margin-right: 0.3em;
 }
 
+.layer {
+    padding-top: 2rem;
+}
+
+.welcome_message {
+    font-size: 1.6rem;
+}
+
 .about_social_logo {
     width: 48px;
     height: 48px;
