@@ -6,7 +6,7 @@ I designed the website to work on mobile as well as desktop following the respon
 1) Profile pic.
 2) Update the background image if you want to.
 3) Update the social links (add or delete as per your use case).
-4) Update the sections.
+4) Update the section text.
 
 This is a very simple bare bones website utilizing HTML & CSS only. The goal was to have something quick out there without spending too much time on it. You can check out the website at [www.ankitsharma.dev](https://www.ankitsharma.dev)
 
