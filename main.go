@@ -7,8 +7,10 @@ import (
 )
 
 func main() {
+	// this picks the index.html file to render in the current directory
 	http.Handle("/", http.FileServer(http.Dir(".")))
 
+	// default port is 8080
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
